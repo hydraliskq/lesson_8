@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Lato";
+	color: #424551;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 20px;
+	font-weight: 700;
+	background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+	margin-bottom: 120px;
+}
+
+.header__logo {
+	display: inline-block;
+}
+
+img.logo {
+	margin-right: 60px;
+}
+
+.header__container {
+}
+
+.header__nav {
+}
+
+.header__logo {
+}
+
+.header__link {
+	display: inline-block;
+}
+
+.header__link a {
+	line-height: 160%;
+}
+
+.header__link a:not(:last-child){
+	margin-right: 40px;
+}
+
+.header__link a:last-child {
+	margin-right: 225px;
+}
+
+.header__link a:hover {
+	color: #FF3F3A;
+}
+
+.header__link a:active {
+	color: #fff;
+}
+
+a:focus {
+	color: red;
+}
+
+.button {
+	display: inline-block;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	margin-right: 24px;
+}
+
+.button a {
+	display: inline-block;
+	padding: 0 40px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 52px;
+	color: #fff;
+}
+
+.button:hover {
+	opacity: 0.7;
+}
+
+.button:hover a {
+	color: black;
+}
+
+.login {
+	display: inline-block;
+	line-height: 160%;
+}
+
+.login__icon::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/Profile.svg") 0 0 no-repeat;
+	width: 18px;
+	height: 19px;
+	margin-right: 8px;
+	margin-bottom: -2px;
+	
+}
+
+.login a:hover {
+	color: red;
+}
+
+.login a:active {
+	color: #fff;
+}
+
+.header__nav {
+	margin-bottom: 120px;
+}
+
+.header__title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #FF3F3A;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.header-main__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	text-align: center;
+	color: #1E212C;
+	padding-bottom: 120px;
+}
+
+.course__container h2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+
+.course__text p {
+	margin-bottom: 48px;
+}
+
+.about__list p {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.about__list li {
+	padding-left: 32px;
+	background: url("../img/icons/check.svg") 0 4px no-repeat;
+	min-height: 20px;
+}
+
+.about__list li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.about__list li:last-child {
+	margin-bottom: 100px;
+}
+
+.curator {
+}
+.curator__container h3 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+
+.curator__container h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+.curator-post {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+.curatot__rating li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.curatot__rating {
+	margin-bottom: 32px;
+}
+
+.curatot__rating li:nth-child(1)::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icons/Star.svg) 0 0 no-repeat;
+	margin-right: 8px;
+}
+
+.curatot__rating li:nth-child(2)::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icons/Vector.svg) 0 0 no-repeat;
+	margin-right: 8px;
+}
+
+.curatot__rating li:nth-child(3)::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icons/Vector-1.svg) 0 0 no-repeat;
+	margin-right: 8px;
+}
+
+.curator__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	padding-bottom: 200px;
+}
+
+.game__title {
+	font-weight: 900;
+	font-size: 46px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.start {
+	width: 50px;
+	height: 50px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	background: #F75E05;
+	border-radius: 30px;
+}
+
+.start p {
+	display: inline-block;
+}
+
+.game__step1 {
+	display: inline-block;
+	background: #F75E05;
+	height: 50px;
+	width: 800px;
+	border-radius: 30px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.start:hover .game__step1 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.game__step2 {
+	height: 200px;
+	width: 50px;
+	display: inline-block;
+	background: #F75E05;
+	border-radius: 30px;
+	opacity: 0;
+	visibility: hidden;
+	margin-left: 750px;
+}
+
+.game__step1:hover .game__step2 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.game__step3 {
+	display: inline-block;
+	height: 30px;
+	width: 300px;
+	background: #F75E05;
+	margin-top: 170px;
+	margin-left: -253px;
+	border-radius: 30px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.game__step2:hover .game__step3 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.game__step4 {
+	display: inline-block;
+	height: 200px;
+	width: 20px;
+	background: #F75E05;
+	margin-top: 20px;
+	margin-left: -275px;
+	border-radius: 30px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.game__step3:hover .game__step4 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.game__step5 {
+	display: inline-block;
+	height: 15px;
+	width: 400px;
+	background: #F75E05;
+	margin-top: 190px;
+	margin-left: 0px;
+	border-radius: 30px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.game__step4:hover .game__step5 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.game__step6 {
+	display: inline-block;
+	height: 150px;
+	width: 10px;
+	background: #F75E05;
+	margin-top: 0px;
+	margin-left: 390px;
+	border-radius: 30px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.game__step5:hover .game__step6 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.finish-game {
+	width: 50px;
+	height: 50px;
+	background: #1E212C;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: -20px;
+}
+
+.game__results {
+	display: none;
+}
+
+.game__results:target {
+	display: block;
+}
+
+.game__results p {
+	font-weight: 900;
+	font-size: 46px;
+	text-align: center;
+}
+
+.finish-game {
+	text-align: center;
+}
